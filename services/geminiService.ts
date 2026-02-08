@@ -15,7 +15,7 @@ export class MazingiraAgent {
     return this.ai.chats.create({
       model: 'gemini-3-flash-preview',
       config: {
-        systemInstruction: `You are the Mazingira AI Liaison. Your role is to assist rangers and conservationists in Kenya. 
+        systemInstruction: `You are the MazingiraGuard AI Liaison. Your role is to assist rangers and conservationists in Kenya. 
         You have access to incident reports regarding illegal logging, poaching, and pollution.
         Be professional, concise, and focused on environmental protection. 
         You know about Kenyan geography including the Mau Forest, Maasai Mara, Mt. Kenya, and major rivers like Tana and Athi.`,
@@ -98,7 +98,7 @@ export class MazingiraAgent {
               },
             },
             {
-              text: `You are the Mazingira AI Autonomous Agent.
+              text: `You are the MazingiraGuard AI Autonomous Agent.
               
               TASK:
               1. Analyze this satellite/drone imagery for environmental crimes in ${region}.

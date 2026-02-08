@@ -1,15 +1,15 @@
 
-# 🌿 Mazingira AI: Autonomous Environmental Intelligence
+# 🌿 MazingiraGuard AI: Autonomous Environmental Intelligence
 
-**Mazingira_Guard AI** is a next-generation, autonomous surveillance and conservation platform designed to protect Kenya's "Water Towers" and critical biodiversity hotspots. By combining multimodal satellite/drone imagery analysis with persistent marathon reasoning, it empowers wildlife rangers to combat illegal logging, poaching, and environmental degradation in real-time.
+**MazingiraGuard AI** is a next-generation, autonomous surveillance and conservation platform designed to protect Kenya's "Water Towers" and critical biodiversity hotspots. By combining multimodal satellite/drone imagery analysis with persistent marathon reasoning, it empowers wildlife rangers to combat illegal logging, poaching, and environmental degradation in real-time.
 
 ---
 
 ## 🚀 Core Mission
-Kenya's natural heritage is under constant threat from silent, incremental environmental crimes. Mazingira AI serves as a persistent, 24/7 autonomous guard, bridging the gap between high-altitude telemetry and actionable ground-truth intelligence.
+Kenya's natural heritage is under constant threat from silent, incremental environmental crimes. MazingiraGuard AI serves as a persistent, 24/7 autonomous guard, bridging the gap between high-altitude telemetry and actionable ground-truth intelligence.
 
 ## 🧠 Technical Mental Model: "Marathon Agent"
-Unlike traditional AI models that treat every query as an isolated event, Mazingira AI utilizes a **Marathon Agent** architecture:
+Unlike traditional AI models that treat every query as an isolated event, MazingiraGuard AI utilizes a **Marathon Agent** architecture:
 - **Thought Signatures:** Maintains persistent memory of regional telemetry to track temporal changes (e.g., the slow expansion of an illegal charcoal kiln).
 - **Temporal Variance:** Uses persistent reasoning to distinguish between natural seasonal shifts and anthropogenic encroachment.
 - **Grounded Cognition:** Every detection is cross-verified via **Google Search Grounding** to ensure alerts are contextualized with local laws, environmental news, and protected status.
@@ -38,4 +38,4 @@ Unlike traditional AI models that treat every query as an isolated event, Mazing
 - **Ground-Truth Verification:** Built-in feedback loops where human rangers refine the agent's "Thought Signatures."
 
 ---
-*Mazingira AI — Protecting the heart of Kenya through persistent intelligence.*
+*MazingiraGuard AI — Protecting the heart of Kenya through persistent intelligence.*

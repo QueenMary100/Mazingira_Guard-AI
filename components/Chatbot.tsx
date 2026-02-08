@@ -20,7 +20,7 @@ const REASSURING_MESSAGES = [
 const Chatbot: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([
-    { role: 'model', text: 'Mazingira AI Liaison active. How can I assist your conservation efforts today?' }
+    { role: 'model', text: 'MazingiraGuard AI Liaison active. How can I assist your conservation efforts today?' }
   ]);
   const [inputValue, setInputValue] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -209,14 +209,14 @@ const Chatbot: React.FC = () => {
         <div 
           className="w-80 md:w-96 h-[600px] bg-slate-900/95 backdrop-blur-xl border border-slate-700 rounded-2xl shadow-2xl flex flex-col mb-4 overflow-hidden animate-slideUp"
           role="dialog"
-          aria-label="Mazingira AI Chatbot"
+          aria-label="MazingiraGuard AI Chatbot"
         >
           <div className="p-4 bg-emerald-600 flex justify-between items-center shadow-lg">
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center">
                 <i className="fa-solid fa-robot text-white"></i>
               </div>
-              <span className="font-black text-white uppercase tracking-widest text-xs">Mazingira HQ Terminal</span>
+              <span className="font-black text-white uppercase tracking-widest text-xs">MazingiraGuard HQ</span>
             </div>
             <button 
               onClick={() => setIsOpen(false)} 

@@ -125,7 +125,7 @@ const App: React.FC = () => {
     const encodedUri = encodeURI(csvContent);
     const link = document.createElement("a");
     link.setAttribute("href", encodedUri);
-    link.setAttribute("download", `mazingira_reports_${new Date().toISOString()}.csv`);
+    link.setAttribute("download", `mazingiraguard_reports_${new Date().toISOString()}.csv`);
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -147,7 +147,7 @@ const App: React.FC = () => {
             <div className="w-20 h-20 bg-emerald-600 rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-2xl shadow-emerald-500/20">
               <i className="fa-solid fa-leaf text-white text-4xl"></i>
             </div>
-            <h1 className="text-4xl font-black text-white tracking-tighter uppercase">MAZINGIRA <span className="text-emerald-500">AI</span></h1>
+            <h1 className="text-4xl font-black text-white tracking-tighter uppercase">MAZINGIRA<span className="text-emerald-500">GUARD</span> AI</h1>
             <p className="mt-2 text-slate-400 font-medium tracking-wide">Conservation Intelligence Gateway</p>
           </div>
 
@@ -222,7 +222,7 @@ const App: React.FC = () => {
             <i className="fa-solid fa-leaf text-white text-xl"></i>
           </div>
           <div>
-            <h1 className="text-xl font-black tracking-tight text-white">MAZINGIRA <span className="text-emerald-500">AI</span></h1>
+            <h1 className="text-xl font-black tracking-tight text-white">MAZINGIRA<span className="text-emerald-500">GUARD</span> AI</h1>
             <p className="text-[10px] uppercase tracking-widest text-slate-500 font-bold">Marathon Surveillance Agent</p>
           </div>
         </div>
@@ -284,7 +284,7 @@ const App: React.FC = () => {
                 <span className="px-4 py-1.5 bg-emerald-500/10 text-emerald-500 border border-emerald-500/20 rounded-full text-[10px] font-black uppercase tracking-widest">About Us</span>
                 <h2 className="text-5xl font-black text-white tracking-tighter leading-none">Protecting Nature with <span className="text-emerald-500 underline decoration-emerald-500/30">Intelligence.</span></h2>
                 <p className="text-slate-400 text-lg leading-relaxed">
-                  Mazingira AI is a collaborative network protecting Kenya's "Water Towers" and biodiversity hotspots. By leveraging Gemini's multimodal vision and Marathon agent architecture, we empower rangers with persistent surveillance to combat illegal logging and poaching in real-time.
+                  MazingiraGuard AI is a collaborative network protecting Kenya's "Water Towers" and biodiversity hotspots. By leveraging Gemini's multimodal vision and Marathon agent architecture, we empower rangers with persistent surveillance to combat illegal logging and poaching in real-time.
                 </p>
                 <div className="flex gap-8">
                   <div className="space-y-1 text-center sm:text-left">
@@ -575,7 +575,7 @@ const App: React.FC = () => {
                 <div className="w-16 h-16 bg-emerald-600 rounded-2xl flex items-center justify-center shadow-lg shadow-emerald-500/20">
                   <i className="fa-solid fa-leaf text-white text-4xl"></i>
                 </div>
-                <h2 className="text-5xl font-black text-white tracking-tighter">MAZINGIRA <span className="text-emerald-500">AI</span></h2>
+                <h2 className="text-5xl font-black text-white tracking-tighter">MAZINGIRA<span className="text-emerald-500">GUARD</span> AI</h2>
               </div>
               <p className="text-slate-500 max-w-lg leading-relaxed text-xl font-medium">
                 Pioneering autonomous marathon intelligence for the next generation of environmental protection. Safeguarding biodiversity through persistent surveillance.
@@ -602,13 +602,13 @@ const App: React.FC = () => {
               <ul className="text-sm text-slate-500 space-y-7 font-bold">
                 <li className="flex items-center gap-5 hover:text-slate-300 transition-colors cursor-default"><i className="fa-solid fa-location-dot text-emerald-500 text-2xl w-8"></i> KWS Nairobi Headquarters</li>
                 <li className="flex items-center gap-5 hover:text-slate-300 transition-colors cursor-default"><i className="fa-solid fa-tower-broadcast text-emerald-500 text-2xl w-8"></i> Alpha Dispatch Mobile Unit</li>
-                <li className="flex items-center gap-5 hover:text-slate-300 transition-colors cursor-default"><i className="fa-solid fa-envelope text-emerald-500 text-2xl w-8"></i> liaison@mazingira.ai</li>
+                <li className="flex items-center gap-5 hover:text-slate-300 transition-colors cursor-default"><i className="fa-solid fa-envelope text-emerald-500 text-2xl w-8"></i> liaison@mazingiraguard.ai</li>
                 <li className="flex items-center gap-5 hover:text-slate-300 transition-colors cursor-default"><i className="fa-solid fa-phone text-emerald-500 text-2xl w-8"></i> +254 800-SURVIVE</li>
               </ul>
             </div>
           </div>
           <div className="pt-12 border-t border-slate-900 flex flex-col md:flex-row justify-between items-center gap-10 text-[11px] font-black text-slate-700 uppercase tracking-[0.3em]">
-            <p>© {new Date().getFullYear()} Mazingira AI Autonomous Intelligence. Kenyan Wildlife Protocol.</p>
+            <p>© {new Date().getFullYear()} MazingiraGuard AI Autonomous Intelligence. Kenyan Wildlife Protocol.</p>
             <div className="flex gap-16">
               <a href="#" className="hover:text-emerald-500 transition-colors">Privacy</a>
               <a href="#" className="hover:text-emerald-500 transition-colors">Audit</a>
