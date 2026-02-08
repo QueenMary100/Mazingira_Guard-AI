@@ -1,0 +1,9 @@
+{
+  "name": "Mazingira AI",
+  "description": "An autonomous environmental crime detection agent that monitors satellite and drone imagery to protect Kenya's natural ecosystems from illegal logging, poaching, and pollution.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
